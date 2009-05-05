@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="compile" default="ignore" basedir="../..">
+    <import file="build-init.xml"/>
+
+    <target name="-compile">
+        <macro_compile version="1.5" src.type="prod"/>
+        <macro_compile version="1.5" src.type="test"/>
+    </target>
+
+</project>
